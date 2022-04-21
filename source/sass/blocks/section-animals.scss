@@ -1,0 +1,59 @@
+.section-animals {
+
+  &__title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+
+
+    &::before {
+      position: absolute;
+      content: '';
+      border-bottom: 2px solid #E5E5E5;
+      width: 100%;
+      bottom: -40px;
+    }
+
+    &::after {
+      position: absolute;
+      content: '';
+      border-bottom: 2px solid var(--color-c);
+      width: 136px;
+      bottom: -40px;
+    }
+
+  }
+
+  &__product {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    grid-gap: 30px;
+    background-color: var(--color-a);
+    padding-top: 100px;
+
+  }
+}
+
+
+
+.all-toys {
+
+
+  &__link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-gap: 10px;
+    height: 20px;
+  }
+
+  &__arrow {
+    margin-top: 3px;
+  }
+}
+
+
+

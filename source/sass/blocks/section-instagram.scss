@@ -1,0 +1,47 @@
+.section-instagram {
+  padding-top: 120px;
+}
+
+.instagram {
+
+  &__wraper {
+
+    padding-top: 85px;
+
+
+  }
+
+  &__list {
+    display: flex;
+    grid-gap: 15px;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  &__inner {
+    padding-top: 75px;
+  }
+
+  &__btn {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    margin: 0 auto;
+    padding: 12px 28px;
+    border-radius: 16px;
+    width: 173px;
+    height: 48px;
+    background-color: var(--color-c);
+
+    font-family: var(--font-family);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    /* identical to box height, or 171% */
+
+    text-align: center;
+
+    color: var(--color-a);
+  }
+}

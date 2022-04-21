@@ -1,0 +1,127 @@
+.second-section {
+  padding-bottom: 120px;
+  display: flex;
+  grid-gap: 30px;
+
+}
+
+
+.category-box {
+  display: flex;
+  grid-gap: 30px;
+
+}
+
+.animals {
+  margin-top: 150px;
+  border-radius: 16px;
+  background-color: var(--color-d);
+  width: 570px;
+  padding-top: 48px;
+  padding-bottom: 60px;
+  position: relative;
+
+  &::before {
+    position: absolute;
+    content: '';
+    background-image: url(../img/bear.png);
+    width: 220px;
+    height: 220px;
+    left: 0;
+    top: -50px;
+  }
+
+  &__title {
+    padding-left: 279px;
+    font-family: var(--font-family2);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 36px;
+    /* identical to box height, or 129% */
+    color: var(--color-a);
+  }
+
+  &__btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 20px;
+    margin-left: 279px;
+    border-radius: 20px;
+    background-color: var(--color-a);
+    width: 112px;
+    height: 40px;
+
+    font-family: var(--font-family);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 24px;
+    /* identical to box height, or 185% */
+
+    text-align: center;
+
+    color: var(--color-b);
+  }
+}
+
+
+.wooden-toys {
+  margin-top: 150px;
+  border-radius: 16px;
+  background-color: var(--color-e);
+  width: 570px;
+  padding-top: 48px;
+  padding-bottom: 60px;
+  position: relative;
+
+  &::before {
+    position: absolute;
+    content: '';
+    background-image: url(../img/wood.png);
+    width: 220px;
+    height: 220px;
+    right: 0;
+    top: -50px;
+  }
+
+  &__title {
+    padding-left: 127px;
+    font-family: var(--font-family2);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 36px;
+    /* identical to box height, or 129% */
+    color: var(--color-a);
+  }
+
+  &__btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 20px;
+    margin-left: 194px;
+    border-radius: 20px;
+    background-color: var(--color-a);
+    width: 112px;
+    height: 40px;
+
+    font-family: var(--font-family);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 24px;
+    /* identical to box height, or 185% */
+
+    text-align: center;
+
+    color: var(--color-b);
+
+
+  }
+}
+
